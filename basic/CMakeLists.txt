@@ -1,0 +1,5 @@
+cmake_minimum_required(2.5)
+find_package(SDL3)
+project(basic)
+add_executable(main.cpp)
+add_library(basic SDL3_LIBS)
